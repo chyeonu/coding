@@ -7,11 +7,32 @@
     <title>Document</title>
 </head>
 
-<body>
+<body STYLE = 'text-align: center; PADDING:100PX 100PX;'>
     <a
         href="https://mobile.capcutshare.com/imlv/personal-homepage?publicid=MS4wLjABAAAAD4JGcrqJd_mQO791d3OgHGAXhykmRHzPixz3mP7cef9GkKdy34NtV1JiCMi_SyX0&language=KO&region=KR">
-    <img style="width: 300px;" src='/1720857521654.jpg'></a>
-    <h1>내 이름은 최현우 입니다.</h1>
+    <img style="width: 450px;" src='/images.jpg'></a>
+    <h1 id = 'hello'>내 이름은 최현우 입니다.</h1>  
+    <div ID = 'PROFILE'>
+        <p>나이: 14세 (만:13)</p>
+        <p>소속 학교명: 귀일중</p>
+        <p>직업: 중학생</p>
+        <p>취미: 편집</p>
+        <p>MBTI: ESFP</p>
+
+    </div> <!-- html 언어 -->
+-------------------------------------------
+    <script> //자바 언어
+        let a = '안녕하세요 반갑습니다';
+        console.log(a);
+    </script>
+    <script>
+        
+    document.getElementById('hello').innerHTML='HELLO MY NAME IS CHYEONU'
+
+    document.getElementById('hello').addEventListener('click',function(){
+        document.getElementById('PROFILE').style.display='none'
+    })
+    </script>
 </body>
 
 </html>
