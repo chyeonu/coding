@@ -12,3 +12,31 @@ header{
     text-align: center;
     padding: 10px 10px;
 }
+
+
+nav{
+    background-color: rgb(159, 250, 67);
+    padding: 10px;
+    border-bottom: 3px solid #e5e5e5;
+}
+
+nav ul{
+    list-style-type : none;
+    display:flex;
+    justify-content: center;
+}
+
+
+nav ul li{
+    margin: 0 10px;
+    height: 30px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    text-align: center;
+}   
+
+
+nav ul li a{
+    text-decoration-line: none;
+}
